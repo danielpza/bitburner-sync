@@ -1,0 +1,37 @@
+{
+  "name": "bitburner-sync",
+  "description": "Keep bitburner game files in sync with local files",
+  "version": "0.1.0",
+  "private": "true",
+  "bin": {
+    "bitburner-sync": "lib/cli.js"
+  },
+  "exports": "./lib/index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "cosmiconfig": "^7.0.1",
+    "esbuild": "^0.15.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.15"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielpza/bitburner-sync.git"
+  },
+  "keywords": [],
+  "author": "danielpza",
+  "bugs": {
+    "url": "https://github.com/danielpza/bitburner-sync/issues"
+  },
+  "homepage": "https://github.com/danielpza/bitburner-sync#readme"
+}
